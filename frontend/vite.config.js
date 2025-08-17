@@ -15,9 +15,10 @@ export default defineConfig({
     host: '0.0.0.0', // This will expose the server to the network
     port: 5174, // Ensure this matches the exposed port
     strictPort: true,
+    allowedHosts: 'all',
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false
       }
