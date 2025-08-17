@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "name": "Tere Bin",
+    "artist": "Atif Aslam",
+    "album": "Bollywood Hits",
+    "duration": "4:32",
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "genre": "Romantic"
+  },
+  {
+    "id": "2", 
+    "name": "Kun Faya Kun",
+    "artist": "A.R. Rahman",
+    "album": "Rockstar",
+    "duration": "7:08",
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "genre": "Sufi"
+  },
+  {
+    "id": "3",
+    "name": "Ae Dil Hai Mushkil",
+    "artist": "Arijit Singh",
+    "album": "Ae Dil Hai Mushkil",
+    "duration": "4:29",
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "genre": "Romantic"
+  },
+  {
+    "id": "4",
+    "name": "Raabta",
+    "artist": "Arijit Singh",
+    "album": "Agent Vinod",
+    "duration": "4:05",
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "genre": "Romantic"
+  },
+  {
+    "id": "5",
+    "name": "Channa Mereya",
+    "artist": "Arijit Singh", 
+    "album": "Ae Dil Hai Mushkil",
+    "duration": "4:49",
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "genre": "Sad"
+  }
+]
+
