@@ -550,3 +550,27 @@ def handle_admin_monitor_request(data):
 if __name__ == '__main__':
     socketio.run(app, host='0.0.0.0', port=5000, debug=False)
 
+
+
+@app.route("/api/public_config", methods=["GET"])
+def get_public_config():
+    """Return public configuration for the frontend"""
+    try:
+        config = {
+            "platform_name": "Green Eco CTF",
+            "platform_subtitle": "Hack for a Greener Tomorrow",
+            "platform_logo": "/tree-icon.svg",
+            "favicon_url": "/favicon.ico",
+            "background_image": "/heromap.jpg",
+            "background_opacity": "0.2",
+            "background_overlay": "0.6",
+            "chat_enabled": True,
+            "music_enabled": True,
+            "environment_globe_enabled": True,
+            "platform_theme": "eco",
+            "primary_color": "#00ff88",
+            "secondary_color": "#00cc66"
+        }
+        return jsonify({"success": True, "config": config})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
