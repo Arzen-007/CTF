@@ -1,0 +1,7 @@
+nohup: ignoring input
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 486-580-871
+(10047) wsgi starting up on http://0.0.0.0:5000
+(10047) accepted ('127.0.0.1', 47356)
+127.0.0.1 - - [16/Aug/2025 15:17:47] "GET / HTTP/1.1" 404 363 0.001437
